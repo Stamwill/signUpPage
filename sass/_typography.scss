@@ -1,0 +1,28 @@
+.create-account {
+  &__heading {
+    font-size: 4rem;
+  }
+  &__heading--2 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 0.5rem;
+  }
+}
+
+.sign-up {
+  &__email,
+  &__password {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .policy {
+    padding-top: 2rem;
+  }
+
+  .terms,
+  .privacy {
+    color: blue;
+    text-decoration: underline;
+  }
+}
